@@ -1,7 +1,25 @@
-# wids_datathon_2023
-Women in Data Science (WiDS Datathon) 2023
-Background on the challenge
-Extreme weather events are sweeping the globe and range from heat waves, wildfires and drought to hurricanes, extreme rainfall and flooding. These weather events have multiple impacts on agriculture, energy, transportation, as well as low resource communities and disaster planning in countries across the globe.
 
-Accurate long-term forecasts of temperature and precipitation are crucial to help people prepare and adapt to these extreme weather events. Currently, purely physics-based models dominate short-term weather forecasting. But these models have a limited forecast horizon. The availability of meteorological data offers an opportunity for data scientists to improve sub-seasonal forecasts by blending physics-based forecasts with machine learning. Sub-seasonal forecasts for weather and climate conditions (lead-times ranging from 15 to more than 45 days) would help communities and industries adapt to the challenges brought on by climate change.
+# Problem Statement
+
+Earth is getting hotter day by day and these extreme weather events cause humongous damage to agriculture, energy and transportation with events like hurricanes, floods, heatwaves, heavy rainfall. Accurate long term predictions are useful to help people prepare and take action and adapt to these weather conditions.
+
+# Task
+
+Forcast sub-seasonal temperatures (temperatures over two-week period) with in United States
+
+# Dataset
+
+The dataset is created in collaboration with climate change AI and everything was put together by WiDS 2023 Datathon team. 
+
+# Data Description
+
+The dataset consists of ~400k rows and 246 columnns with the 
+
+
+
+
+
+
+
+
 
