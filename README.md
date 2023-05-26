@@ -35,11 +35,13 @@ The dataset consists of ~400k rows and 246 columnns like temperature, precipitat
 1. There are 514 unique locations for given date
 2. There are difference in existing locations in train and test data
 3. For consecutive location groups (269,268)in train and test dataframes, found a precision error (in 16th digit after decimal) between latitude and longitude points causing the difference in locations ultimately
+
   train_df location group 269
   lat and lon 0.5454545454545454 0.3666666666666666
   
   test_df location group 268
   lat and lon 0.5454545454545454 0.3666666666666665
+  
 4. Round off the value to 14th digit to overcome this error and verify the values are same in train and test sets
  
  
