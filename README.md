@@ -30,7 +30,18 @@ The dataset consists of ~400k rows and 246 columnns like temperature, precipitat
 1. Missing Values: The train dataset has missing values which is < 2% of the dataset so I choose to delete the rows for simplicity. Test data has no missing values.
 2. Time ranges: the train dataset is from 2014 to 2016 and test dataset is for 2022. This is called Data-Drift which we will be tackling going further.
 3. Different Unique Locations in train and test data: Noticed locations varying in train and test sets. 
-4. 
+
+#### Insights
+1. There are 514 unique locations for given date
+2. There are difference in existing locations in train and test data
+3. For consecutive location groups (269,268)in train and test dataframes, found a precision error (in 16th digit after decimal) between latitude and longitude points causing the difference in locations ultimately
+  train_df location group 269
+  lat and lon 0.5454545454545454 0.3666666666666666
+  test_df location group 268
+  lat and lon 0.5454545454545454 0.3666666666666665
+4. Round off the value to 14th digit to overcome this error and verify the values are same in train and test sets
+ 
+ 
 
 
 
