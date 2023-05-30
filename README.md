@@ -29,7 +29,7 @@ The dataset consists of ~400k rows and 246 columnns like temperature, precipitat
 
 1. Missing Values: Ideally in many machine learning probems we either impute with mean or we delete the row if the percentage of missing values is significantly less. But in time series problem we cannot impute with mean nor we delete instead we use ffill() which just uses the last observed value.
    * Cannot impute with mean because: there will be a huge difference between current value and mean value. 
-   * if it is snowing in current, it is likely to snow tomorrow
+   * if it is snowing today, it is likely to snow tomorrow (logic for not imputing with mean)
 3. Time ranges: the train dataset is from 2014 to 2016 and test dataset is for 2022. This is called Data-Drift which we will be tackling going further.
 4. Different Unique Locations in train and test data: Noticed locations varying in train and test sets. 
 
